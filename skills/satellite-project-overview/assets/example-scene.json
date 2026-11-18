@@ -1,0 +1,139 @@
+{
+  "size": [
+    2400,
+    1300
+  ],
+  "font_family": "Microsoft YaHei",
+  "background": {
+    "image": "example-background.png",
+    "box": [
+      75,
+      180,
+      2250,
+      870
+    ],
+    "extent": [
+      1000,
+      2000,
+      5000,
+      3600
+    ],
+    "saturation": 0.65,
+    "brightness": 0.95,
+    "veil": 0.1
+  },
+  "routes": [
+    {
+      "points": [
+        [
+          1100,
+          3300
+        ],
+        [
+          2500,
+          3400
+        ],
+        [
+          2700,
+          2300
+        ],
+        [
+          4800,
+          2500
+        ]
+      ],
+      "width_px": 10,
+      "casing_px": 17
+    }
+  ],
+  "sites": [
+    {
+      "point": [
+        4800,
+        2800
+      ],
+      "radius_px": 70,
+      "color": "#a568d2",
+      "opacity": 0.28
+    }
+  ],
+  "labels": [
+    {
+      "point": [
+        1100,
+        3300
+      ],
+      "box_at": [
+        110,
+        500
+      ],
+      "lines": [
+        "供水接驳点",
+        "接现状供水管"
+      ],
+      "tag": "S",
+      "color": "#008b83"
+    },
+    {
+      "point": [
+        4800,
+        2500
+      ],
+      "box_at": [
+        2300,
+        925
+      ],
+      "align": "right",
+      "lines": [
+        "园区交水点",
+        "接园区给水系统"
+      ],
+      "tag": "E"
+    }
+  ],
+  "texts": [
+    {
+      "at": [
+        75,
+        40
+      ],
+      "text": "项目给水线路总览",
+      "size": 52,
+      "bold": true
+    },
+    {
+      "at": [
+        75,
+        1120
+      ],
+      "text": "概化示意；详细定位以设计图为准。",
+      "size": 26
+    }
+  ],
+  "areas": [
+    {
+      "points": [
+        [
+          2880,
+          3600
+        ],
+        [
+          2940,
+          3600
+        ],
+        [
+          3100,
+          2000
+        ],
+        [
+          3020,
+          2000
+        ]
+      ],
+      "color": "#25c8ad",
+      "opacity": 0.35
+    }
+  ],
+  "font": "C:/Windows/Fonts/msyh.ttc",
+  "bold_font": "C:/Windows/Fonts/msyhbd.ttc"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "approved-satellite-overview",
+  "reference_size": [4800, 2520],
+  "palette": {"paper":"#ffffff","title":"#123c55","route":"#087fce","casing":"#ffffff","outer_edge":"#13475f","source":"#008b83","crossing":"#d48a28","terminal":"#087fce","river":"#25c8ad","site":"#a568d2","secondary_text":"#506a7b","bridge":"#d48a28","railway":"#59636f"},
+  "fonts": {"preferred_family":"Microsoft YaHei","main_title_px":105,"subtitle_px":66,"label_title_px":68,"label_body_px":56,"site_title_px":76,"legend_px":59,"note_px":51},
+  "linework": {"route_px":19,"white_casing_px":32,"outer_edge_px":41,"leader_white_px":12,"leader_color_px":4,"node_outer_radius_px":39,"node_inner_radius_px":29,"site_radius_px":165},
+  "background": {"saturation":0.65,"brightness":0.92,"veil":0.12},
+  "areas": {"river_opacity":0.412,"site_opacity":0.294},
+  "layout": {"scale_bar":false,"label_fit":"actual_text_width_plus_padding","padding_px":36,"single_line_site_padding_px":40,"protect_terminal_and_site":true},
+  "feature_notes": {"bridge":"少量橙金色桥位/桥面示意，与管线穿越关系清楚；没有桥界不虚构精确面","railway":"灰色线性符号或简洁轨道符号，次于蓝色主管，按资料核对平交/下穿等关系","river":"青绿色半透明已判读轮廓，区分可见水面与河槽概化","site":"淡紫半透明位置圆点或有依据的区域，不冒称用地红线"}
+}

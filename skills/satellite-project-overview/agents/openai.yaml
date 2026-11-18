@@ -1,0 +1,7 @@
+interface:
+
+  display_name: "卫星总图与方案插图"
+
+  short_description: "将CAD或GIS线路整理成适合PPT、A4附件的清晰卫星总图与方案插图"
+
+  default_prompt: "使用 $satellite-project-overview，把项目线路制作成卫星底图上的简洁方案插图。"
