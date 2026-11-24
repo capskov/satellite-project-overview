@@ -68,7 +68,7 @@ const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypt
 const [geometry,scene,output,preset]=process.argv.slice(2);
 if(!geometry||!scene||!output)throw Error("Usage: node render_rail_transit.cjs geometry.svg scene.json output.svg [style.json]");
 const src=fs.readFileSync(geometry,"utf8"),cfg=JSON.parse(fs.readFileSync(scene,"utf8")),style=JSON.parse(fs.readFileSync(preset||path.join(__dirname,"../assets/styles/rail-transit/style.json"),"utf8"));
-const result=render(src,cfg,style),prefix=src.replace(/<\\/svg>\\s*$/,"");
+const result=render(src,cfg,style),prefix=src.replace(/<\/svg>\s*$/,"");
 if(!result.startsWith(prefix))throw Error("Geometry bytes changed");
 fs.writeFileSync(output,result,"utf8");
 console.log(JSON.stringify({output,geometry_prefix_sha256:crypto.createHash("sha256").update(prefix).digest("hex"),labels:cfg.labels.length}));
