@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<g id="engineering-geometry" stroke-linejoin="round" stroke-linecap="round">
+<g id="rail"><path d="M630 0 H720 L725 340 L690 450 L720 670 H660 L630 450 Z" fill="#A68DD5" fill-opacity=".35" stroke="#A68DD5" stroke-width="2"/></g>
+<g id="water"><path d="M1425 290 L1465 285 L1525 560 L1490 580 Z" fill="#39B7C5" fill-opacity=".45" stroke="#39B7C5" stroke-width="2"/></g>
+<g id="road-redlines" fill="none"><path d="M0 442 H142 V350 M142 442 L480 462 L800 443 L1170 432 V335 M1170 432 H1600 M0 480 H145 V665 M145 480 L480 500 L800 480 L1195 470 V665 M1195 470 H1600 M185 350 V445 M185 482 V665 M1240 335 V432 M1240 470 V665" stroke="#fff" stroke-width="3.6"/><path d="M0 442 H142 V350 M142 442 L480 462 L800 443 L1170 432 V335 M1170 432 H1600 M0 480 H145 V665 M145 480 L480 500 L800 480 L1195 470 V665 M1195 470 H1600 M185 350 V445 M185 482 V665 M1240 335 V432 M1240 470 V665" stroke="#ED565A" stroke-width="2.2" stroke-dasharray="6 4"/></g>
+<g id="phase1"><path d="M160 480 L480 500 L800 480" fill="none" stroke="#fff" stroke-width="5"/><path d="M160 480 L480 500 L800 480" fill="none" stroke="#6C91B5" stroke-width="3"/></g>
+<g id="phase2"><path d="M800 480 L1190 470 H1380 M1080 473 V438 M1310 470 V435" fill="none" stroke="#fff" stroke-width="5"/><path d="M800 480 L1190 470 H1380 M1080 473 V438 M1310 470 V435" fill="none" stroke="#087BEE" stroke-width="3"/></g>
+</g></svg>

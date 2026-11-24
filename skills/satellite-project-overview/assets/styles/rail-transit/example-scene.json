@@ -1,0 +1,131 @@
+{
+  "title": "示例道路给水迁改｜一期、二期实施范围",
+  "subtitle": "工程范围及实施分界",
+  "labels": [
+    {
+      "id": "start",
+      "role": "start",
+      "title": "K0+000",
+      "body": "道路设计起点",
+      "anchor": [
+        160,
+        480
+      ],
+      "box": [
+        90,
+        150,
+        175
+      ],
+      "tip_base": 220
+    },
+    {
+      "id": "phase1",
+      "role": "phase1",
+      "title": "一期实施范围",
+      "body": "起点—分界",
+      "anchor": [
+        480,
+        500
+      ],
+      "box": [
+        400,
+        150,
+        230
+      ],
+      "tip_base": 540
+    },
+    {
+      "id": "boundary",
+      "role": "boundary",
+      "title": "K0+610",
+      "body": "一期、二期实施分界",
+      "anchor": [
+        800,
+        480
+      ],
+      "box": [
+        720,
+        150,
+        255
+      ],
+      "tip_base": 860
+    },
+    {
+      "id": "phase2",
+      "role": "phase2",
+      "title": "二期实施范围",
+      "body": "分界—终点方向",
+      "anchor": [
+        1190,
+        470
+      ],
+      "box": [
+        1110,
+        150,
+        350
+      ],
+      "tip_base": 1250
+    }
+  ],
+  "texts": [
+    {
+      "id": "west-road",
+      "text": "示例西路",
+      "at": [
+        173,
+        565
+      ],
+      "vertical": true
+    },
+    {
+      "id": "main-road",
+      "text": "示例大道",
+      "at": [
+        1010,
+        449
+      ]
+    },
+    {
+      "id": "east-road",
+      "text": "示例东路",
+      "at": [
+        1215,
+        560
+      ],
+      "vertical": true
+    },
+    {
+      "id": "river",
+      "text": "示例河道",
+      "at": [
+        1500,
+        400
+      ],
+      "vertical": true
+    },
+    {
+      "id": "metro",
+      "text": "轨道交通",
+      "at": [
+        690,
+        270
+      ],
+      "vertical": true
+    }
+  ],
+  "range": {
+    "x": 36,
+    "end_x": 1564,
+    "y": 731,
+    "start_label": "K0+000",
+    "boundary_label": "K0+610",
+    "phase1_label": "一期实施范围",
+    "phase2_label": "二期实施范围",
+    "end_label": "终点方向"
+  },
+  "legend": {
+    "x": 36,
+    "y": 788
+  },
+  "synthetic": true
+}

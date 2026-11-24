@@ -32,3 +32,11 @@ CAD读写使用当前环境支持的工具。仓库推荐可选配合 [CAD Agent
 技能目录的 `scripts/render_overview.py` 按显式配置生成 PNG 和 SVG。需要 Python 3.10+、Pillow、背景影像及可用的系统字体；具体配置、坐标空间和运行命令见[绘图配置](skills/satellite-project-overview/references/render-config.md)。工具不会自动识别河岸或决定工程线路。
 
 参考设计和细节见 [SKILL.md](skills/satellite-project-overview/SKILL.md)、[样式与排版](skills/satellite-project-overview/references/visual-style.md)。
+
+## 风格库（0.2.0）
+
+原默认 A 保留不变。新增 B **现代轨道交通风格**，可直接说“按卫星总图 Skill 的 B 风格，细长三角直指节点，底部双色分期尺”。
+
+![B 现代轨道交通风格合成示例](skills/satellite-project-overview/assets/styles/rail-transit/example-preview.svg)
+
+[风格选择与样张](skills/satellite-project-overview/references/styles.md) · [B 风格详细工作流](skills/satellite-project-overview/references/styles/rail-transit.md)。B 使用 Node.js 18+ 的独立 SVG 标注工具，已有 A 的 Python 工具不变。样张全部为合成数据。
