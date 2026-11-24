@@ -5,7 +5,7 @@
 | ID | 名称 | 样张 | 适合 |
 |---|---|---|---|
 | default | A · 默认工程白卡 | [示例](../assets/example-overview.png) | 常规给水、接驳、园区总图 |
-| rail-transit | B · 现代轨道交通 | [完整样张](../assets/styles/rail-transit/example-preview.svg) · [透明样张](../assets/styles/rail-transit/example-overlay.svg) | 分期、线性工程、节点密集汇报 |
+| rail-transit | B · 现代轨道交通 v1.1.0 | [完整样张](../assets/styles/rail-transit/example-preview.svg) · [透明样张](../assets/styles/rail-transit/example-overlay.svg) | 分期、线性工程、节点密集汇报 |
 
 ![B 合成风格样张](../assets/styles/rail-transit/example-preview.svg)
 

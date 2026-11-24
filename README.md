@@ -33,9 +33,9 @@ CAD读写使用当前环境支持的工具。仓库推荐可选配合 [CAD Agent
 
 参考设计和细节见 [SKILL.md](skills/satellite-project-overview/SKILL.md)、[样式与排版](skills/satellite-project-overview/references/visual-style.md)。
 
-## 风格库（0.2.0）
+## 风格库（0.2.1）
 
-原默认 A 保留不变。新增 B **现代轨道交通风格**，可直接说“按卫星总图 Skill 的 B 风格，细长三角直指节点，底部双色分期尺”。
+原默认 A 保留不变。新增 B **现代轨道交通风格 v1.1.0**（用户确认的较大圆角、粗白边版本），可直接说“按卫星总图 Skill 的 B 风格，细长三角直指节点，底部双色分期尺”。
 
 ![B 现代轨道交通风格合成示例](skills/satellite-project-overview/assets/styles/rail-transit/example-preview.svg)
 

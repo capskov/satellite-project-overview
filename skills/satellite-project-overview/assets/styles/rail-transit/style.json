@@ -1,6 +1,6 @@
 {
   "id": "rail-transit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "reference_width": 1600,
   "palette": {
     "start": "#146B70",
@@ -18,35 +18,34 @@
   },
   "font_family": "Noto Sans CJK SC, Microsoft YaHei, sans-serif",
   "label": {
-    "height": 62,
-    "radius": 5,
-    "tip_width": 16,
-    "border": 1.5,
-    "title": 23,
+    "height": 68,
+    "radius": 12,
+    "tip_width": 17,
+    "border": 2.8,
+    "title": 24,
     "body": 15,
-    "padding": 20,
+    "padding": 26,
     "margin": 32,
     "marker": {
       "start": 10,
       "boundary": 15,
-      "phase1": 6,
-      "phase2": 6
+      "phase1": 5.5,
+      "phase2": 5.5
     }
   },
   "geometry": {
     "road_width": 2.2,
-    "road_casing": 3.6,
+    "road_casing": 4.4,
     "road_dash": "6 4",
-    "pipe_width": 3,
-    "pipe_casing": 5,
-    "water_opacity": 0.45,
-    "metro_opacity": 0.35
+    "pipe_width": 3.4,
+    "pipe_casing": 6.2,
+    "water_opacity": 0.32,
+    "metro_opacity": 0.33
   },
   "range": {
-    "height": 48,
-    "gap_to_legend": 9,
+    "height": 49,
+    "gap_to_legend": 8,
     "phase1_opacity": 0.9,
     "phase2_opacity": 0.88
-  },
-  "notes": "Widths are visual pixels at reference_width, never engineering widths; all geometry and anchor coordinates come from verified CAD/GIS."
+  }
 }
